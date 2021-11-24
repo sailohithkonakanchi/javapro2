@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+ 
+<<hibernate-mapping>
+<class name="com.dxc.Hiberpro1.persist.Student" table="javab12">
+<id name="roll"
+<generator class="asssigned"></generator>
+</id>
+<property name="sname" length="10"></property>
+<property name="course" length="10"></property>
+
+</class>
+
+</hibernate-mapping> 
